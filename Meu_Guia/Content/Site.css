@@ -1,0 +1,343 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #eaeaea;
+	color: #999;
+	font: 100%/1.5em sans-serif;
+	margin: 0;
+}
+h3 { margin: 0; }
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover { color: #1dabb8; }
+
+fieldset {
+	border: none;
+	margin: 0;
+}
+
+.detalheEmpresa {
+
+    text-align: center;
+    background-color: #ffffff;
+    padding: 100px;
+    margin: 50%
+    
+}
+input {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0;
+	-webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="submit"] { cursor: pointer; }
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;	
+}
+.clearfix:after { clear: both; }
+
+/* ---------- LOGIN-FORM ---------- */
+.pag-inicio {
+    padding-left: 200px;
+    padding-top: 100px;  
+}
+
+#login-form {
+    padding-top: 5%;
+	margin: 50px auto;
+	width: 300px;
+}
+
+#login-form h3 {
+	background-color: #282830;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px 129px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#login-form fieldset {
+	background: #fff;
+	border-radius: 0 0 5px 5px;
+	padding: 20px;
+	position: relative;
+}
+
+#login-form fieldset:before {
+	background-color: #fff;
+	content: "";
+	height: 8px;
+	left: 50%;
+	margin: -4px 0 0 -4px;
+	position: absolute;
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 8px;
+}
+
+#login-form input {
+	font-size: 14px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+	border: 1px solid #dcdcdc;
+	padding: 12px 10px;
+	width: 238px;
+}
+
+#login-form input[type="text"] {
+	border-radius: 3px 3px 0 0;
+}
+
+#login-form input[type="password"] {
+	border-top: none;
+    border-radius: 0px 0px 3px 3px #6699ff;
+}
+
+#login-form input[type="submit"] {
+	background: #00bfff;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 12px 20px;
+}
+
+#login-form input[type="submit"]:hover { background: #0092ff; }
+
+#login-form footer {
+	font-size: 12px;
+	margin-top: 16px;
+}
+
+.info {
+	background: #e5e5e5;
+	border-radius: 50%;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 10px 0 0;
+	text-align: center;
+	width: 20px;
+}
+body{
+ background-image: url("~\Meu_Guia\Meu_Guia\Imagens\14110.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+body
+{
+background:url(/Imagens/backgroud.jpg) no-repeat center top #6699ff;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0 auto;
+color: #0e4354;
+}
+.clear{
+clear:both;
+}
+a{
+color:#256c89;
+}
+h2{
+font-size:18px;
+color:#256c89;
+font-weight:normal;
+padding:0px 0 15px 0;
+margin:0px;
+clear:both;
+}
+h3{
+font-size:18px;
+color:#256c89;
+font-weight:normal;
+padding:15px 0 5px 20px;
+margin:0px;
+float:left;
+clear:both;
+}
+a.forgot_pass{
+float:right;
+color:#256c89;
+text-decoration:none;
+background:url(images/help.png) no-repeat left;
+padding:0 0 0 18px;
+display:block;
+margin:15px 20px 0 0;
+}
+#main_container{
+margin:0 auto;
+width:900px;
+padding:0px 0 0px 0;
+}
+.header{
+width:900px;
+height:100px;
+}
+.header_login{
+width:600px;
+margin:auto;
+}
+.logo{
+float:left;
+padding:35px 0 0 0;
+}
+#clock_a{
+float:right;
+padding:15px 0 0 0;
+}
+.jclock{
+color:#FFFFFF;
+float:right;
+font-size:22px;
+font-weight:bold;
+padding:34px 25px 0 0;
+}
+.right_header{
+width:350px;
+float:right;
+text-align:right;
+color:#FFFFFF;
+padding:40px 0 0 0;
+}
+.right_header a{
+margin:0 5px 0 5px;
+text-decoration:underline;
+color:#FFFFFF;
+}
+.right_header a.messages{
+background:url(images/comment.png) no-repeat right;
+padding-right:20px;
+}
+.right_header a.logout{
+background:url(images/user_logout.png) no-repeat right;
+padding-right:20px;
+}
+
+.main_content{
+margin:0 auto;
+width:900px;
+height:auto;
+padding:0px 0 50px 0;
+background:url(images/menu_bg.jpg) no-repeat center top #fff;
+}
+.footer{width:900px;height:87px;background:url(images/footer_bg.jpg) no-repeat center top;}
+.footer_login{width:600px;margin:auto;}
+
+.left_footer{float:left;padding:25px 0 0 10px;color:#a8549b;font-size:11px;}
+.left_footer a{color:#FFFFFF;text-decoration:none;}
+.right_footer{float:right;padding:25px 10px 0 0;}
+
+.left_footer_login{float:left;padding:15px 0 0 10px;color:#a8549b;font-size:11px;}
+.left_footer_login a{color:#FFFFFF;text-decoration:none;}
+.right_footer_login{float:right;padding:15px 10px 0 0;}
+/*---------------- menu----------------------*/
+.menu {font-size:11px;padding:0px 10px 0 10px; float:left; width:880px;}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;margin:0;list-style-type:none; height:34px;}
+
+/* style the sub-level lists */
+.menu ul ul {width: auto;}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {float:left;height:34px;line-height:34px;}
+
+/* style the sub level list items */
+.menu ul ul li {display:block;width: auto;height:auto;position:relative;line-height:1em;}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;float:left;height:100%;font-size:11px;text-decoration:none;color:#fff;padding:0 21px 0 17px;}
+.menu a.current{background:url(images/menu_bg.gif) repeat-x center;}
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {display:block;background:#57c0e8; border-bottom:1px #81dafc solid; color:#fff;width:12em;height:100%;line-height:1em;padding:1em 1em;}
+.menu ul table ul a, .menu ul table ul a:visited  {width:14em; w\idth:12em;}
+
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+.menu table {position:absolute; left:0; top:0; font-size:1em; z-index:-1;}
+.menu ul ul table {lef\t:-1px;}
+.menu ul ul table ul.left {margin-lef\t:2px;}
+
+.menu li:hover {position:relative;}
+* html .menu a:hover {position:relative;}
+
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#57c0e8;}
+/* style the fourth level background */
+.menu ul ul ul ul a, .menu ul ul ul ul a:visited {background:#57c0e8;}
+/* style the sub level 1 background */
+.menu ul :hover a.sub1 {background:url(images/arrow.gif) no-repeat right #309dc7;}
+/* style the sub level 2 background */
+.menu ul ul :hover a.sub2 {background:url(images/arrow.gif) no-repeat right #088bb4;}
+
+/* style the level hovers */
+/* first */
+.menu a:hover {color:#fff;background:url(images/menu_bg.gif) repeat-x center;}
+.menu :hover > a {color:#fff;background:url(images/menu_bg.gif) repeat-x center;}
+/* second */
+.menu ul ul a:hover{color:#fff;background:url(images/menu_bg_a.gif) repeat-x center;}
+.menu ul ul :hover > a {color:#fff;background:url(images/menu_bg_a.gif) repeat-x center;}
+/* third */
+.menu ul ul ul a:hover {background:url(images/menu_bg_a.gif) repeat-x center;}
+.menu ul ul ul :hover > a {background:url(images/menu_bg_a.gif) repeat-x center;}
+/* fourth */
+.menu ul ul ul ul a:hover {background:url(images/menu_bg_a.gif) repeat-x center;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:34px;left:0;width:14em; z-index:999;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:14em;top:0;width:14em;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul, .menu ul a:hover ul {visibility:visible; height:auto; padding-bottom:3em; background:transparent url(images/trans.gif);}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible;}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+
+
+
+
+
+
+
+
+

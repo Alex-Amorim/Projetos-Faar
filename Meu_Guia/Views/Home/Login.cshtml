@@ -1,0 +1,18 @@
+﻿@model Meu_Guia.Models.Usuario
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+<div class="pag-inicio">
+    <a href="~/"> <img src="~/Imagens/home.png" width="87" height="87" alt="Home Page" title="Home Page" /></a>
+</div>
+<div id="login-form">
+    <h3>Login</h3>
+    <fieldset>
+        <form action="" method="POST">
+            <input type="text" id="User" name="User" required value="" placeholder="Usuário"> <!-- JS because of IE support; better: placeholder="Email" -->
+            <input type="password" id="Senha" name="Senha" required value="" placeholder="Senha"> <!-- JS because of IE support; better: placeholder="Password" -->
+            <input type="submit" value="Login">
+        </form>
+    </fieldset>
+</div>

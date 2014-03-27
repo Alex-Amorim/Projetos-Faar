@@ -1,0 +1,46 @@
+﻿@model Meu_Guia.Models.Pesquisa
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+    <body>
+        <h1> Meu Guia</h1>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/Home/Index">Home</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                    <form class="navbar-form navbar-left" role="search" method="POST" action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="resultado" name="resultado" placeholder="Search">
+                        </div>
+                        <input type="submit" class="btn btn-default" value="Pesquisar">
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="painel">
+
+                            
+                            <a href="~/Home/Login" class="painel"><img src="~/Imagens/config.png" width="30" height="30" />Painel<b class="painel"></b></a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse --
+            @RenderBody()
+        </nav>
+        <footer class="rodape"> MeuGuia.com.br - Todos os direitos rervados </footer>       
+    </body>
+
+</html>

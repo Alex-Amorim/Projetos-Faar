@@ -1,0 +1,43 @@
+﻿@model Meu_Guia.Models.Usuario
+0@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Painel Admistrativo | Meu Guia</title>
+    <link href="~/Areas/Content/Csss.css" rel="stylesheet" />
+    <script src="~/Areas/Scripts/jquery-1.4.2.min.js"></script>
+    <script src="~/Areas/Scripts/ddaccordion.js"></script>
+    <script src="~/Areas/Scripts/jconfirmaction.jquery.js"></script>
+</head>
+<body>
+    <div id="main_container">
+
+        <div class="header">
+            <div class="logo"><h1>Painel Adminstrativo</h1></div>
+            <div class="right_header">Bem vindo<strong> @Html.DisplayFor(x => x.User)</strong> | <a href="/Home/Login" class="logout"><img src="~/Imagens/1395736313_sign-in.png" width="12" height="12" />Logout</a></div>
+            <div class="jclock"></div>
+        </div>
+
+        <div class="left_content">
+
+            <div class="right_content">
+
+             @RenderBody()
+
+                <div class="clear"></div>
+
+            </div> <!--end of main content-->
+
+
+            <div class="footer">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

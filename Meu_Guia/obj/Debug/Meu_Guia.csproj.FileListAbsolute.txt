@@ -1,0 +1,54 @@
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\Meu_Guia.dll.config
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\Meu_Guia.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\Meu_Guia.pdb
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Helpers.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Mvc.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Razor.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Deployment.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Razor.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Razor.xml
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.xml
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Deployment.xml
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Razor.xml
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Helpers.xml
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\bin\System.Web.Mvc.xml
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.csprojResolveAssemblyReference.cache
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.dll
+c:\users\alex amorim\documents\visual studio 2013\Projects\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.pdb
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\Meu_Guia.dll.config
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\Meu_Guia.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\Meu_Guia.pdb
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.dll
+C:\Users\User\Desktop\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.pdb
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\Meu_Guia.dll.config
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\Meu_Guia.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\Meu_Guia.pdb
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Helpers.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Mvc.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Razor.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Razor.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Razor.xml
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.xml
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Webpages.Razor.xml
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Helpers.xml
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\bin\System.Web.Mvc.xml
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.csprojResolveAssemblyReference.cache
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.dll
+C:\Users\Alex Amorim\Desktop\Meu_Guia\Meu_Guia\obj\Debug\Meu_Guia.pdb

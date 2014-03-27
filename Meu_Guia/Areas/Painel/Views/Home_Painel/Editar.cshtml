@@ -1,0 +1,31 @@
+﻿@model Meu_Guia.Areas.Painel.Models.Empresa
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Areas/Painel/Views/Shared/_Painel_Layout.cshtml";
+}
+
+<h1 class="rotulo">Editar</h1>
+
+<form action="" method="post" class="tabela">
+
+    <div>
+        <label for="Nome_da_empresa">Nome da Empresa</label>
+    </div>
+    <div>
+    <input type="text" value="Gazin" id="Nome_da_empresa" name="nome_da_empresa" />
+    </div>
+    <div>
+        <label for="telefone">Telefone</label>
+    </div>
+    <div>
+    <input type="text" value="69-3535-555" id="telefone" name="telefone" />
+    </div>
+    <div>
+        <label for="endereco">Endereço</label>
+    </div>
+    <div>
+        <input type="text" value="Av:tracredo Neves" id="Cpf" name="Endereco" />
+    </div>
+    <input type="submit" value="Salvar" />
+    
+</form>

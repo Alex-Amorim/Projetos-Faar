@@ -1,0 +1,132 @@
+﻿@model Meu_Guia.Models.Usuario
+0@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Painel Admistrativo | Meu Guia</title>
+    <link href="~/Areas/Content/Csss.css" rel="stylesheet" />
+    <script src="~/Areas/Scripts/jquery-1.4.2.min.js"></script>
+    <script src="~/Areas/Scripts/ddaccordion.js"></script>
+    <script src="~/Areas/Scripts/jconfirmaction.jquery.js"></script>
+</head>
+<body>
+    <div id="main_container">
+
+        <div class="header">
+            <div class="logo"><h1>Painel Adminstrativo</h1></div>
+            <div class="right_header">Bem vindo<strong> @Html.DisplayFor(x => x.User)</strong> | <a href="/Home/Login" class="logout"><img src="~/Imagens/1395736313_sign-in.png" width="12" height="12" />Logout</a></div>
+            <div class="jclock"></div>
+        </div>
+
+                <div class="left_content">
+
+                <div class="right_content">
+                    
+                    <h2 class="cab-gerenc" >Gerenciador De Empresas  </h2>
+                    <a href="~/Painel/Home_Painel/Cadastro" class="bt_green"><span class="bt_green_lft"></span><strong>Nova empresa</strong><span class="bt_green_r"></span></a>
+
+                    <table id="rounded-corner" summary="MeuGuia/Empresas">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="rounded-company"></th>
+                                <th scope="col" class="rounded">Nome</th>
+                                <th scope="col" class="rounded">Telefone</th>
+                                <th scope="col" class="rounded">Endereço</th>
+                                <th scope="col" class="rounded">Editar</th>
+                                <th scope="col" class="rounded-q4">Excluir</th>
+                                <th scope="col" class="rounded">Detalhes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" name="" /></td>
+                                <td>Moveis Gazim</td>
+                                <td>69-3535-555</td>
+                                <td>Av: Tancredo Neves 2411 Ariquemes/Ro</td>
+
+                                <!--Icons/Edit,Delet,View-->
+                                <td><a href="~/Painel/Home_Painel/Editar"><img src="~/Areas/Imagens/edit.png" alt="Editar" title="Editar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Excluir" class="ask"><img src="~/Areas/Imagens/delet.png" alt="Deletar" title="Deletar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Detalhes_Empresa"><img src="~/Areas/Imagens/view.png" alt="Detalhes" title="Detalhes" border="0" /></a></td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" name="" /></td>
+                                <td>Moveis Gazim</td>
+                                <td>69-3535-555</td>
+                                <td>Av: Tancredo Neves 2411 Ariquemes/Ro</td>
+
+                                
+                                <!--Icons/Edit,Delet,View-->
+                                <td><a href="~/Painel/Home_Painel/Editar"><img src="~/Areas/Imagens/edit.png" alt="Editar" title="Editar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Excluir" class="ask"><img src="~/Areas/Imagens/delet.png" alt="Deletar" title="Deletar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Detalhes_Empresa"><img src="~/Areas/Imagens/view.png" alt="Detalhes" title="Detalhes" border="0" /></a></td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" name="" /></td>
+                                <td>Moveis Gazim</td>
+                                <td>69-3535-555</td>
+                                <td>Av: Tancredo Neves 2411 Ariquemes/Ro</td>
+
+                                <!--Icons/Edit,Delet,View-->
+                                <td><a href="~/Painel/Home_Painel/Editar"><img src="~/Areas/Imagens/edit.png" alt="Editar" title="Editar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Excluir" class="ask"><img src="~/Areas/Imagens/delet.png" alt="Deletar" title="Deletar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Detalhes_Empresa"><img src="~/Areas/Imagens/view.png" alt="Detalhes" title="Detalhes" border="0" /></a></td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" name="" /></td>
+                                <td>Moveis Gazim</td>
+                                <td>69-3535-555</td>
+                                <td>Av: Tancredo Neves 2411 Ariquemes/Ro</td>
+                                <!--Icons/Edit,Delet,View-->
+                                <td><a href="~/Painel/Home_Painel/Editar"><img src="~/Areas/Imagens/edit.png" alt="Editar" title="Editar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Excluir" class="ask"><img src="~/Areas/Imagens/delet.png" alt="Deletar" title="Deletar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Detalhes_Empresa"><img src="~/Areas/Imagens/view.png" alt="Detalhes" title="Detalhes" border="0" /></a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="" /></td>
+                                <td>Moveis Gazim</td>
+                                <td>69-3535-555</td>
+                                <td>Av: Tancredo Neves 2411 Ariquemes/Ro</td>
+
+                                <td><a href="~/Painel/Home_Painel/Editar"><img src="~/Areas/Imagens/edit.png" alt="Editar" title="Editar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Excluir" class="ask"><img src="~/Areas/Imagens/delet.png" alt="Deletar" title="Deletar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Detalhes_Empresa"><img src="~/Areas/Imagens/view.png" alt="Detalhes" title="Detalhes" border="0" /></a></td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" name="" /></td>
+                                <td>Moveis Gazim</td>
+                                <td>69-3535-555</td>
+                                <td>Av: Tancredo Neves 2411 Ariquemes/Ro</td>                              
+                                <td><a href="~/Painel/Home_Painel/Editar"><img src="~/Areas/Imagens/edit.png" alt="Editar" title="Editar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Excluir" class="ask"><img src="~/Areas/Imagens/delet.png" alt="Deletar" title="Deletar" border="0" /></a></td>
+                                <td><a href="~/Painel/Home_Painel/Detalhes_Empresa"><img src="~/Areas/Imagens/view.png" alt="Detalhes" title="Detalhes" border="0" /></a></td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                 
+                    <div class="pagination">
+                        <span class="disabled"><< voltar</span><span class="current">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a>…<a href="#">10</a><a href="#">11</a><a href="#">12</a>...<a href="#">100</a><a href="#">101</a><a href="#"> >></a>
+                    </div>
+
+                    <div class="clear"></div>
+
+        </div> <!--end of main content-->
+
+
+        <div class="footer">
+        </div>
+
+    </div>
+</body>
+</html>
